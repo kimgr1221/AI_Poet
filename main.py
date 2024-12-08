@@ -1,10 +1,13 @@
+#pip install python-dotenv
+#pip install langchain-openai
+#pip install streamlit
+
 import openai
 import streamlit as st
 import langchain_openai
 from langchain_openai import ChatOpenAI
 
-
-chat_model = ChatOpenAI(api_key=openai.api_key)
+chat_model = ChatOpenAI()
 
 st.title("인공지능 시인")
 subject = st.text_input("시의 주제를 입력해주세요.")
