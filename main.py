@@ -3,7 +3,6 @@ import streamlit as st
 import langchain_openai
 from langchain_openai import ChatOpenAI
 
-openai.api_key = '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'
 
 chat_model = ChatOpenAI(api_key=openai.api_key)
 
