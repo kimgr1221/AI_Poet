@@ -2,9 +2,10 @@
 #pip install langchain-openai
 #pip install streamlit
 
-import openai
+#from dotenv import load_dotenv
+#load_dotenv()
+
 import streamlit as st
-import langchain_openai
 from langchain_openai import ChatOpenAI
 
 chat_model = ChatOpenAI()
